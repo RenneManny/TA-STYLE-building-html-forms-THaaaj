@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(rgb(255,121,120,0.5),rgba(255,121,120,0.5)),url(assets/bg-intro-desktop.png);
+    height: 100vh;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+padding-top: 150px;
+}
+.flex{
+    display: flex;
+   gap: 150px;
+   align-items: center;
+}
+h2{
+    font-size: 52px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+p{
+    color: white;
+}
+.purple{
+    width: 80%;
+    background: rgb(93,84,163);
+    height: 50px;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 5px 10px 10px #996d76;
+}
+span{
+    font-weight: 800;
+}
+.purple p{
+    font-size: 18px;
+}
+.form-div{
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.2); 
+}
+form{
+    margin-top: 20px;
+     border-radius: 12px;
+}
+.form-div p{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+}
+.form-div span{
+    color: #F5A4A6;
+}
+input{
+    width: 80%;
+    padding: 20px 20px;
+    margin-top: 20px ;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    /* font-size: 18px; */
+}
+.btn{
+    background-color: #37CC8A;
+    width: 80%;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+
+}
+input ::placeholder:focus{
+    outline: none;
+}
+
