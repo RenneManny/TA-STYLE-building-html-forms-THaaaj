@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    line-height:1.5;
+}
+header {
+    padding: 16px 32px;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+}
+
+.flex1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bolder;
+    vertical-align: middle;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 16px 32px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 18px;
+}
+
+.nav .active {
+    color: #69C6BA;
+
+}
+
+/* first-section */
+.first-section {
+    background:linear-gradient(to left,rgba(14,8,4,0.5),rgba(14,8,4,0.5)),url(assets/banner.jpg);
+    background-size: cover;
+    /* height: 100vh; */
+    padding-bottom: 50px;
+}
+.text{
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+.text h1{
+    font-size: 52px;
+    text-transform: uppercase;
+    /* padding-top: 55px; */
+}
+.text h3{
+    font-size: 28px;
+    font-weight: normal;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: #69C6BA;
+    display: inline-block;
+}
+.form-div{
+   max-width: 50%;
+   margin: 0 auto;
+   border: 2px solid white;
+   background: #fff;
+   /* height: 100px; */
+   padding: 20px;
+}
+
+label{
+
+font-weight: bold;
+}
+
+input{
+
+    padding: 10px;
+border: none;
+}
+fieldset{
+    border: none;
+}
+.second-section{
+    text-align: center;
+    padding-top: 50px;
+}
+.second-section h2{
+    text-transform: uppercase;
+    padding:20px 0 20px 0;
+}
+.txt{
+    width: 900px;
+    margin: 0 auto;
+}
+.btn{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    background:#69C6BA;
+    border: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.form-flex{
+    display: flex;
+    
+}
