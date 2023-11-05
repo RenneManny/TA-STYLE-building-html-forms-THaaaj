@@ -7,6 +7,7 @@
 - Use semantic tags and keep the nesting and indentation proper. -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b529531a21.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -23,7 +25,7 @@
                         <a href=""><img src="assets/logo.png" alt=""></a>
                     </div>
                     <div>
-                       <a href="">JOURNEY</a>
+                        <a href="">JOURNEY</a>
                     </div>
                 </div>
                 <div class="nav">
@@ -37,45 +39,160 @@
     </header>
 
     <main>
+        <!-- first-section -->
         <section class="first-section">
             <div class="text">
                 <h1>Let's Begin</h1>
                 <a href=""><img src="assets/dots-3.png" alt=""></a>
                 <h3>We assist you to choose best.</h3>
                 <div class="circle">
-                   <a href=""><i class="fa-solid fa-angle-down" style="color: white; padding-top:20px;" ></i></a> 
+                    <a href=""><i class="fa-solid fa-angle-down" style="color: white; padding-top:20px;"></i></a>
                 </div>
             </div>
-            <div class="form-div form-flex">
-                
-                <div>
-                    <label for="">Enter your Destination</label><br>
-                    <input type="text" placeholder="choose your destination....">
-                </div>
-                <div>
-                    <label for="">How many rooms ?</label><br>
-                    <input type="number" placeholder="number">
-                </div>
-                <div>
-                    <label for="">Adult ?</label><br>
-                    <input type="number" placeholder="number">
-                </div>
-                <div>
-                    <label for="">Children ?</label><br>
-                    <input type="number" placeholder="number">
-                </div>
-         
-            </div>
+            <div class="form-div">
+                <form form action="" method="post">
+                    <div class="form-flex">
+                        <div>
+                            <label for="">Choose your Destination</label>
+                            <input type="text" placeholder="Type your destination...">
+                        </div>
+                        <div class="form-flex2">
+                            <div>
+                                <label for="">How many rooms ?</label>
+                                <input type="number" placeholder="1">
+                            </div>
+                            <div>
+                                <label for="">Adult</label>
+
+                                <input type="number" placeholder="1">
+                            </div>
+                            <div>
+                                <label for="">Children</label>
+                                <input type="number" name="" id="" placeholder="1">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-flex">
+                        <div>
+                            <label for="">Check in Date</label>
+                            <input type="date">
+                        </div>
+                        <div class="form-flex2">
+                            <div>
+                                <label for="">Check out Date</label>
+                                <input type="date">
+                            </div>
+
+                        </div>
+                        <div><button class="btn2">Check Availability</button></div>
+
+
+                    </div>
+                </form>
         </section>
-        <!-- <section class="second-section">
+        <!-- second section -->
+        <section class="second-section">
             <div class="txt">
 
+
+                <h2>Your <strong>JOURNEY</strong> is our priority</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum soluta corrupti, eaque nam
+                    reiciendis exercitationem quos vero inventore sed quis aperiam. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Ipsam vero hic magnam.</p>
+                <button class="btn">Continue to Explore</button>
+            </div>
+        </section>
+        <!-- third section -->
+        <section class="third-section">
+            <div class="flex3">
+                <div class="img"><img src="assets/tm-img-01.jpg" alt=""></div>
+                <div class="square">
+                    <h2>Europe's most visited places.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ab dolore quia quidem non aut eos
+                        possimus? Excepturi, eum quo officiis cum expedita perferendis nihil, aperiam, dignissimos est
+                        voluptatem magnam eaque alias.</p>
+                    <button class="btn3">Continue reading</button>
+                </div>
+
+
+            </div>
+
+            <!-- next -->
+            <div class="flex3">
+                <div class="square square2">
+                    <h2>Europe's most visited places.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ab dolore quia quidem non aut eos
+                        possimus? Excepturi, eum quo officiis cum expedita perferendis nihil, aperiam, dignissimos est
+                        voluptatem magnam eaque alias.</p>
+                    <button class="btn3">Continue reading</button>
+                </div>
+                <div class="img"><img src="assets/tm-img-02.jpg" alt=""></div>
+            </div>
+            <!-- next -->
+            <div class="flex3">
+                <div class="img"><img src="assets/tm-img-03.jpg" alt=""></div>
+                <div class="square">
+                    <h2>Europe's most visited places.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ab dolore quia quidem non aut eos
+                        possimus? Excepturi, eum quo officiis cum expedita perferendis nihil, aperiam, dignissimos est
+                        voluptatem magnam eaque alias.</p>
+                    <button class="btn3">Continue reading</button>
+                </div>
+            </div>
+        </section>
+        <!-- countries section -->
+        <section>
+            <div class="img-flex">
+                <div class="">
+                    <img src="assets/africa.png" alt="">
+                    <p>Africa</p>
+                </div>
+                <div>
+                    <img src="assets/antartica.png" alt="">
+                    <p>antartica</p>
+                </div>
+                <div>
+                    <img src="assets/asia.png" alt="">
+                    <p>asia</p>
+                </div>
+                <div class="bg">
+                    <img src="assets/australia.png" alt="">
+                    <p>australia</p>
+                </div>
+                <div>
+                    <img src="assets/europe.png" alt="">
+                    <p>europe</p>
+                </div>
+                <div>
+                    <img src="assets/north-america.png" alt="">
+                    <p>north-america</p>
+                </div>
+                <div>
+                    <img src="assets/south-america.png" alt="">
+                    <p>south-america</p>
+                </div>
+            </div>
+        </section>
+        <!-- form section -->
+        <section class="map">
             
-            <h2>Your <strong>JOURNEY</strong> is our priority</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum soluta corrupti, eaque nam reiciendis exercitationem quos vero inventore sed quis aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero hic magnam.</p>
-            <button class="btn">Continue to Explore</button>
-        </div>
-        </section> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d27006.804776497156!2d76.32343274749638!3d32.20825622998293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d32.2078722!2d76.3289937!4m5!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2saltcampus!3m2!1d32.207294499999996!2d76.3554089!5e0!3m2!1sen!2sin!4v1699143649017!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="form-new">
+                    <form action="">
+                        <div>
+                        <input type="text" placeholder="name">
+                        <input type="email" name="" id="" placeholder="email">
+                    </div>
+                        <div>
+                            <input type="text" placeholder="subject">
+                        </div>
+                        <div><textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea></div>
+                    </form>
+                </div>
+            
+        </section>
     </main>
 </body>
+
 </html>

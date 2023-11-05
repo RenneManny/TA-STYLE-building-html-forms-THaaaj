@@ -11,9 +11,8 @@ a {
     text-decoration: none;
     color: black;
 }
-body{
-    line-height:1.5;
-}
+
+
 header {
     padding: 16px 32px;
 }
@@ -64,76 +63,219 @@ header {
 
 /* first-section */
 .first-section {
-    background:linear-gradient(to left,rgba(14,8,4,0.5),rgba(14,8,4,0.5)),url(assets/banner.jpg);
+    background: linear-gradient(to left, rgba(14, 8, 4, 0.5), rgba(14, 8, 4, 0.5)), url(assets/banner.jpg);
     background-size: cover;
-    /* height: 100vh; */
+    padding-top: 50px;
     padding-bottom: 50px;
 }
-.text{
+
+.text {
     text-align: center;
     color: white;
     padding: 100px;
 }
-.text h1{
+
+.text h1 {
     font-size: 52px;
     text-transform: uppercase;
     /* padding-top: 55px; */
 }
-.text h3{
+
+.text h3 {
     font-size: 28px;
     font-weight: normal;
 }
-.circle{
+
+.circle {
     height: 50px;
     width: 50px;
-    border-radius:50%;
+    border-radius: 50%;
     background-color: #69C6BA;
     display: inline-block;
 }
-.form-div{
-   max-width: 50%;
-   margin: 0 auto;
-   border: 2px solid white;
-   background: #fff;
-   /* height: 100px; */
-   padding: 20px;
+
+.form-div {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
 }
 
-label{
+label {
 
-font-weight: bold;
+    font-weight: bold;
+    font-size: 14px;
 }
 
-input{
+input {
 
     padding: 10px;
-border: none;
-}
-fieldset{
     border: none;
 }
-.second-section{
+
+.second-section {
     text-align: center;
     padding-top: 50px;
+    background-color: #e0dfdf;
+    padding-bottom: 50px;
 }
-.second-section h2{
+
+.second-section h2 {
     text-transform: uppercase;
-    padding:20px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
-.txt{
+
+.txt {
     width: 900px;
     margin: 0 auto;
 }
-.btn{
+
+.btn {
     color: white;
     text-align: center;
     padding: 10px 20px;
-    background:#69C6BA;
+    background: #69C6BA;
     border: none;
     margin-top: 20px;
+    font-weight: bold;
     text-transform: uppercase;
+    cursor: pointer;
 }
-.form-flex{
+
+.form-flex {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-flex2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.btn2 {
+    color: white;
+    text-align: center;
+    background: #69C6BA;
+    border: none;
+    text-transform: uppercase;
+    align-self: self-end;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* third section */
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: fit-content;
+
+}
+
+.flex3 .img {
+    position: relative;
+    width: 50%;
+    height: 520px;
+    max-height: 520px;
+    min-height: 300px;
+    /* height: 50%; */
+}
+
+.flex3 .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: scale(1);
+    height: 100%;
+    width: 100%;
+}
+
+.btn3 {
+    color: #69C6BA;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.square {
+    background: #69C6BA;
+    padding: 40px 80px;
+    width: 50%;
+    transform: translateX(-100px);
+}
+
+.square h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.square p {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.square2 {
+    transform: translateX(100px);
+    background: #C66995;
+    z-index: 1;
+}
+
+.square2 .btn3 {
+    color: #C66995;
+}
+
+/* countries section */
+
+.img-flex {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #69C6BA;
+    flex-wrap: wrap;
+}
+
+.img-flex p {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.bg {
+    background: #C66995;
+    padding: 20px 40px;
+
+}
+
+/* form */
+.map{
+    position: relative;
+}
+.form-new{
+    border: 2px solid red;
+    padding: 15px;
+    color: white;
+    width: 50%;
+}
+.form-new input{
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    width: 50%;
+}
+.from textarea{
+    background-color: #F5F5F5;
+    margin-top: 10px;
 }
